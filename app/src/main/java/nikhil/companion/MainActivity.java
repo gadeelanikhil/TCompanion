@@ -16,10 +16,8 @@ import android.view.MenuItem;
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 // its just a edit //
-    //edited by prashanth//
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        //------->Changed here<--------
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
